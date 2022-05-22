@@ -8,6 +8,7 @@ const Navbar = ({ children }) => {
             <li><NavLink to='/about' className='rounded-lg'>About</NavLink></li>
             <li><NavLink to='/contact' className='rounded-lg'>Contact</NavLink></li>
             <li><NavLink to='/login' className='rounded-lg'>Login</NavLink></li>
+            <button data-toggle-theme="dark,light">Theme</button>
             <li class="dropdown dropdown-hover dropdown-end">
                     <label tabindex="0" class="btn btn-primary btn-outline m-1 rounded-lg">Buy Now</label>
                     <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
